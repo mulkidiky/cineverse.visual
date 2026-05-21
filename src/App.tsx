@@ -103,7 +103,7 @@ export default function App() {
               <a href="https://www.instagram.com/cineverse.visual/" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-cyan-400 transition-colors">
                 <Instagram className="w-4 h-4 md:w-5 md:h-5" />
               </a>
-              <a href="https://www.tiktok.com/@cak.laed?lang=id-ID" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+              <a href="https://www.tiktok.com/@cineverse.visual?lang=id-ID" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-cyan-400 transition-colors">
                 <svg className="w-4 h-4 md:w-5 md:h-5 fill-current" viewBox="0 0 24 24">
                   <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.42-.33-.22-.65-.46-.94-.73v6.54c0 1.25-.32 2.45-1.01 3.52-.7 1.14-1.8 2.05-3.08 2.48-1.07.38-2.26.47-3.37.28-1.55-.26-3.02-1.12-4.04-2.33-1.08-1.28-1.63-2.95-1.57-4.63.07-1.83.74-3.6 1.95-4.99 1.34-1.54 3.33-2.52 5.37-2.67v4.07c-1.14.07-2.27.53-3.11 1.3-.87.82-1.29 2.05-1.17 3.24.12 1.17.75 2.15 1.62 2.87.81.65 1.83.92 2.81.82 1.16-.1 2.18-.75 2.72-1.74.34-.6.48-1.28.48-1.96V.02Z"/>
                 </svg>
@@ -266,7 +266,7 @@ export default function App() {
                   </div>
                 </div>
                 <a 
-                  href={`https://wa.me/6282136526079?text=Halo%20Cineverse%2C%20saya%20ingin%20memesan%20paket%20Event%20Documentation%20${pkg.name}`}
+                  href={`https://wa.me/6285606572757?text=Halo%20Cineverse%2C%20saya%20ingin%20memesan%20paket%20Event%20Documentation%20${pkg.name}`}
                   target="_blank"
                   rel="noreferrer"
                   className={`block text-center w-full py-3.5 md:py-5 rounded-xl md:rounded-2xl font-bold uppercase tracking-[0.2em] text-[9px] md:text-xs transition-all ${pkg.popular ? "bg-white text-zinc-950 hover:bg-cyan-400" : "bg-zinc-950 text-white border border-zinc-800 hover:bg-zinc-800"}`}
@@ -304,7 +304,7 @@ export default function App() {
             </div>
             <div className="mt-6 md:mt-10">
               <a 
-                href="https://wa.me/6282136526079?text=Halo%20Cineverse%2C%20saya%20ingin%20tanya%20tentang%20layanan%20Hourly%20Session"
+                href="https://wa.me/6285606572757?text=Halo%20Cineverse%2C%20saya%20ingin%20tanya%20tentang%20layanan%20Hourly%20Session"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full md:w-auto inline-flex items-center justify-center gap-3 md:gap-4 bg-zinc-100 text-zinc-950 px-6 md:px-8 py-4 md:py-5 rounded-full font-bold uppercase tracking-widest text-[10px] md:text-sm hover:bg-cyan-400 transition-all shadow-xl"
@@ -379,7 +379,7 @@ export default function App() {
                 </div>
 
                 <a 
-                  href={`https://wa.me/6282136526079?text=Halo%20Cineverse%2C%20saya%20ingin%20konsultasi%20paket%20Commercial%20${item.name}`}
+                  href={`https://wa.me/6285606572757?text=Halo%20Cineverse%2C%20saya%20ingin%20konsultasi%20paket%20Commercial%20${item.name}`}
                   target="_blank"
                   rel="noreferrer"
                   className={`block text-center py-3.5 md:py-5 rounded-xl md:rounded-2xl font-bold uppercase tracking-widest text-[9px] md:text-xs transition-all ${item.accent ? "bg-zinc-950 text-white hover:bg-zinc-800" : "bg-white text-zinc-950 hover:bg-cyan-400"}`}
@@ -429,7 +429,7 @@ export default function App() {
                     <span className="text-lg md:text-2xl font-display font-black text-white">Rp 50k</span>
                   </div>
                   <a 
-                    href="https://wa.me/6282136526079?text=Halo%20Cineverse%2C%20saya%20punya%20footage%20yang%20ingin%20diedit"
+                    href="https://wa.me/6285606572757?text=Halo%20Cineverse%2C%20saya%20punya%20footage%20yang%20ingin%20diedit"
                     target="_blank"
                     rel="noreferrer"
                     className="p-3.5 md:p-5 bg-white rounded-full text-zinc-950 hover:bg-cyan-400 transition-all font-bold uppercase text-[8px] md:text-[10px] tracking-widest shadow-xl"
@@ -467,7 +467,7 @@ export default function App() {
                     <span className="text-lg md:text-2xl font-display font-black text-white">Rp 500k</span>
                   </div>
                   <a 
-                    href="https://wa.me/6282136526079?text=Halo%20Cineverse%2C%20saya%20ingin%20memesan%20Travel%20Documentation"
+                    href="https://wa.me/6285606572757?text=Halo%20Cineverse%2C%20saya%20ingin%20memesan%20Travel%20Documentation"
                     target="_blank"
                     rel="noreferrer"
                     className="p-3.5 md:p-5 bg-white rounded-full text-zinc-950 hover:bg-cyan-400 transition-all font-bold uppercase text-[8px] md:text-[10px] tracking-widest shadow-xl"
@@ -551,7 +551,7 @@ export default function App() {
                     <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.42-.33-.22-.65-.46-.94-.73v6.54c0 1.25-.32 2.45-1.01 3.52-.7 1.14-1.8 2.05-3.08 2.48-1.07.38-2.26.47-3.37.28-1.55-.26-3.02-1.12-4.04-2.33-1.08-1.28-1.63-2.95-1.57-4.63.07-1.83.74-3.6 1.95-4.99 1.34-1.54 3.33-2.52 5.37-2.67v4.07c-1.14.07-2.27.53-3.11 1.3-.87.82-1.29 2.05-1.17 3.24.12 1.17.75 2.15 1.62 2.87.81.65 1.83.92 2.81.82 1.16-.1 2.18-.75 2.72-1.74.34-.6.48-1.28.48-1.96V.02Z"/>
                   </svg>
                 </a>
-                <a href="https://wa.me/6282136526079" target="_blank" rel="noreferrer" className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center hover:bg-cyan-500 hover:text-zinc-950 transition-all group">
+                <a href="https://wa.me/6285606572757" target="_blank" rel="noreferrer" className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center hover:bg-cyan-500 hover:text-zinc-950 transition-all group">
                   <WhatsAppIcon className="w-5 h-5 md:w-6 md:h-6 group-hover:scale-110 transition-transform" />
                 </a>
               </div>
@@ -563,7 +563,7 @@ export default function App() {
                 Let's discuss <br />your project.
               </div>
               <a 
-                href="https://wa.me/6282136526079" 
+                href="https://wa.me/6285606572757" 
                 target="_blank" 
                 rel="noreferrer"
                 className="relative z-10 flex items-center gap-4 bg-white text-zinc-950 px-8 md:px-10 py-5 rounded-full font-bold text-xs md:text-sm tracking-widest uppercase transition-all border border-transparent hover:bg-cyan-400 group-hover:shadow-[0_10px_30px_rgba(34,211,238,0.2)]"
