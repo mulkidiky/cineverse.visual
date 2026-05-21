@@ -5,20 +5,14 @@
 
 import { motion, useScroll, useSpring } from "motion/react";
 import { 
-  Camera, 
   Video, 
-  Clapperboard, 
   Clock, 
   Plane, 
   Plus, 
-  Smartphone, 
   ChevronRight,
-  MessageCircle,
-  Zap,
-  Globe,
-  Star,
-  Award,
-  Instagram
+  Instagram,
+  Menu,
+  X
 } from "lucide-react";
 import { useState, useEffect } from "react";
 import logo from "./assets/images/regenerated_image_1779163048956.png";
@@ -108,8 +102,14 @@ export default function App() {
                   <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.42-.33-.22-.65-.46-.94-.73v6.54c0 1.25-.32 2.45-1.01 3.52-.7 1.14-1.8 2.05-3.08 2.48-1.07.38-2.26.47-3.37.28-1.55-.26-3.02-1.12-4.04-2.33-1.08-1.28-1.63-2.95-1.57-4.63.07-1.83.74-3.6 1.95-4.99 1.34-1.54 3.33-2.52 5.37-2.67v4.07c-1.14.07-2.27.53-3.11 1.3-.87.82-1.29 2.05-1.17 3.24.12 1.17.75 2.15 1.62 2.87.81.65 1.83.92 2.81.82 1.16-.1 2.18-.75 2.72-1.74.34-.6.48-1.28.48-1.96V.02Z"/>
                 </svg>
               </a>
+              <button 
+                className="lg:hidden text-zinc-400 hover:text-cyan-400 transition-colors ml-2"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Toggle Menu"
+              >
+                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              </button>
             </div>
-
 
           </div>
 
@@ -118,7 +118,7 @@ export default function App() {
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="absolute top-full left-0 right-0 bg-zinc-950 border-b border-zinc-900 p-8 flex flex-col gap-6 md:hidden z-40"
+              className="absolute top-full left-0 right-0 bg-zinc-950 border-b border-zinc-900 p-8 flex flex-col gap-6 lg:hidden z-40"
             >
               {["Services", "Pricelist", "Portfolio", "Contact"].map((item) => (
                 <a 
@@ -137,7 +137,7 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative min-h-[85vh] md:min-h-screen flex items-center pt-24 pb-16 md:pt-32 md:pb-20 px-6 overflow-hidden">
+      <header className="relative min-h-[85vh] md:min-h-screen flex items-center pt-24 pb-16 md:pt-32 md:pb-20 px-6 overflow-hidden hero-gradient">
 
         <div className="max-w-7xl mx-auto relative z-10 w-full">
           <motion.div
@@ -159,7 +159,7 @@ export default function App() {
               className="text-4xl sm:text-5xl md:text-8xl font-display font-bold tracking-tight mb-6 md:mb-8 leading-[1.1] md:leading-[1] uppercase"
             >
               Professional <br /> 
-              <span className="text-white">Pricelist</span> <span className="text-cyan-400">2026</span>
+              <span className="text-white">Pricelist</span> <span className="text-gradient">2026</span>
             </motion.h1>
 
             <motion.p 
@@ -291,7 +291,7 @@ export default function App() {
             <p className="text-zinc-400 text-sm md:text-xl leading-relaxed mb-6 md:mb-10 font-light">
               Layanan dokumentasi berbasis durasi waktu yang fleksibel, ideal untuk kebutuhan yang lebih personal dan spesifik.
             </p>
-            <div className="p-5 md:p-10 bg-zinc-900/40 backdrop-blur-sm rounded-[24px] md:rounded-[48px] border border-zinc-800/50 mb-8 md:mb-12">
+            <div className="p-5 md:p-10 glass-card rounded-[24px] md:rounded-[48px] mb-8 md:mb-12">
               <h4 className="text-[9px] md:text-xs font-bold text-zinc-500 mb-4 md:mb-6 uppercase tracking-[0.3em]">Perfect For Moments:</h4>
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 {["Tasyakuran", "Ulang Tahun", "Aqiqah", "Keluarga"].map(item => (
