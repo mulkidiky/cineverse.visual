@@ -1,0 +1,6 @@
+{
+  "name": "Cineverse Visual Pricelist",
+  "description": "Premium animated pricelist for Cineverse Visual photography and videography services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
